@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FiChevronDown } from "react-icons/fi";
+// import { FiChevronDown } from "react-icons/fi";
 
 const Hero = () => {
   return (
@@ -21,15 +21,15 @@ const Hero = () => {
         <nav className="hidden lg:flex items-center gap-8 text-sm font-medium">
 
           <Link to="/wallet" className="flex items-center gap-1 hover:text-gray-300">
-            Features <FiChevronDown size={14} />
+            Features 
           </Link>
 
           <Link to="/wallet" className="flex items-center gap-1 hover:text-gray-300">
-            Build <FiChevronDown size={14} />
+            Build
           </Link>
 
           <Link to="/wallet" className="flex items-center gap-1 hover:text-gray-300">
-            Resources <FiChevronDown size={14} />
+            Resources 
           </Link>
 
           <Link to="/wallet" className="hover:text-gray-300">
@@ -63,7 +63,7 @@ const Hero = () => {
 
     {/* Language Selector */}
     <Link to="/wallet" className="flex items-center gap-1 hover:text-gray-300">
-      EN <FiChevronDown size={14} />
+      EN 
     </Link>
   </div>
 
